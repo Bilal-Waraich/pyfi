@@ -1,3 +1,6 @@
+<!--
+Suggested GitHub Topics: cpp pybind11 finance options-pricing black-scholes python quantitative-finance
+-->
 # PyFi - Python Financial Instruments Library
 
 PyFi is a high-performance Python library for financial instrument pricing and analysis, built with C++ and exposed
@@ -29,7 +32,7 @@ including standard Brownian motion and Geometric Brownian Motion (GBM).
 - Forward pricing and implied dividend yield calculations
 - Support for continuous dividend yields
 
-### Stochastic Processes Module (In Development)
+### Stochastic Processes Module
 
 - **Standard Brownian Motion**: Simulation of Wiener processes
 - **Geometric Brownian Motion (GBM)**: Stock price simulation and Monte Carlo methods
@@ -348,16 +351,13 @@ Key functions:
 - `forward_from_yield()` - Calculate forward price from dividend yield
 - `yield_from_forward()` - Calculate implied dividend yield
 
-### Stochastic Processes Module (`pyfi.brownian`) - Coming Soon
+### Stochastic Processes Module (`pyfi.brownian`)
 
-Planned functions:
+Key functions:
 
 - Brownian motion path simulation
 - Geometric Brownian Motion (GBM) for stock price modeling
 - Monte Carlo simulation utilities
-- Variance reduction techniques
-
-**Note**: The stochastic processes module is currently under development. Check the project repository for updates.
 
 ## Project Structure
 
@@ -398,7 +398,7 @@ Contributions are welcome! Please follow these guidelines:
 
 ## License
 
-[Specify your license here]
+This project is licensed under the [MIT License](LICENCE).
 
 ## Acknowledgments
 
